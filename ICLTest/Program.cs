@@ -76,7 +76,6 @@ namespace ICLTest
             //    formatter.Serialize(fs, students);
             //}
 
-
             //XDocument xdoc = new XDocument(new XElement("students",
             //    new XElement("student",
             //        new XAttribute("Teacher", $"{student1.Teacher.ToString()}"),
