@@ -1,7 +1,7 @@
 CREATE TABLE Product
 (
     Id INT PRIMARY KEY IDENTITY,
-    ProductName NVARCHAR(20) NOT NULL,
+    ProductName NVARCHAR(100) NOT NULL,
     Price MONEY,
 	Description NVARCHAR(MAX)
 );
@@ -23,4 +23,3 @@ SELECT ProductId FROM Storage WHERE City = VAR
 
 SELECT TOP 1 * FROM Storage
 ORDER BY COUNT(ProductId = VAR) 
-
